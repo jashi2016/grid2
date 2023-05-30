@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body{
+  background-color: #ECF2F8;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 70px 200px;
+}
+
+.card{
+  margin: 10px;
+  border-radius: 10px;
+  background-color: lavender;
+}
+
+.quote {
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+}
+
+.item1{
+  background-color: #7541C8;
+  color: white;
+  grid-column: 1/ span 2;
+}
+
+.item2{
+  background-color: #48556A;
+  color: white;
+  grid-column: 3/ span 1;
+}
+
+.item3{
+  background-color: white;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.item4{
+  background-color: #ffffff;
+  grid-column: 1 / span 1;
+}
+
+.item5{
+  color: white;
+  background-color: #19212E;
+  grid-column: 2 / span 2;
+}
+
+.card1{
+  padding: 32px;
+}
+
+.details{
+  display: flex;
+}
+
+.details img{
+  margin: 10px;
+  border-radius: 50%;
+  height: 30px;
+}
+
+.details div{
+  margin: 10px;
+}
+
+.about h2{
+  font-size: small;
+}
+
+.about p{
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.p1{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.p2{
+  margin-top: 13px;
+  font-size: 13px;
+}
